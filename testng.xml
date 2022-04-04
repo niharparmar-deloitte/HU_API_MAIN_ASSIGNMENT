@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/pyogeshbhai/Documents/HU_API_MAIN_ASSIGNMENT/main_assignment_api">
+        <classes>
+            <class name="toDoOperations">
+                <methods>
+                    <include name="registerUser"/>
+                    <include name="loginUser"/>
+                    <include name="validateUser"/>
+                    <include name="addTask"/>
+                    <include name="getAllTask"/>
+                    <include name="paginationFor2"/>
+                    <include name="paginationFor5"/>
+                    <include name="paginationFor10"/>
+                    <include name="duplicateRegistrationDetails"/>
+                    <include name="invalidLoginDetails"/>
+                    <include name="invalidTaskBody"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
